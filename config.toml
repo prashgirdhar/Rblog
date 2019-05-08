@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+#baseurl = "https://example.com/"
 title = "Prashant Girdhar"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
