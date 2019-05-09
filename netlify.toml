@@ -3,24 +3,7 @@
   command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
   publish = "public"
 
-# Build a preview of the site (Drafts and Future dates also) 
-#   Un-comment next two lines.
-#[context.deploy-preview]
-#  command = "hugo --buildFuture"
-
 [context.production.environment]
   HUGO_VERSION = "0.55.5"
 
-# you can lock a version of hugo for a deploy preview
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.55.5"
-
-# you can lock a version of hugo for a branch-deploy (other than previews)
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.55.5"
   
-[context.deploy-preview]
-  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
