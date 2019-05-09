@@ -1,6 +1,6 @@
 # Global settings applied to the whole site.
 [build]
-  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_UR"
+  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
   publish = "public"
 
 # Build a preview of the site (Drafts and Future dates also) 
