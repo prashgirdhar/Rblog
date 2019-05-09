@@ -1,7 +1,7 @@
 ---
 date: "2016-11-05T20:22:08+05:30"
 draft: false
-image: img/portfolio/trifold.jpg
+image: https://raw.githubusercontent.com/prashgirdhar/Rblog/master/img/portfolio/trifold.jpg
 showonlyimage: true
 title: Item with image
 weight: 10

@@ -1,7 +1,7 @@
 ---
 date: "2016-11-05T19:57:40+05:30"
 draft: false
-image: img/portfolio/label-clothes.jpg
+image: https://raw.githubusercontent.com/prashgirdhar/Rblog/master/img/portfolio/label-clothes.jpg
 showonlyimage: false
 title: Name of the work 7
 weight: 7
