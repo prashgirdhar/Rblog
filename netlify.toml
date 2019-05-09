@@ -20,7 +20,7 @@
   HUGO_VERSION = "0.55.5"
   
 [context.deploy-preview]
-  command = "hugo -b $DEPLOY_PRIME_URL"
+  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL"
+  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
