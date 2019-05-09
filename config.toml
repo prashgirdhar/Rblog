@@ -3,6 +3,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 title = "Prashant Girdhar"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
+publishDir = "prashgirdhar.github.io"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
