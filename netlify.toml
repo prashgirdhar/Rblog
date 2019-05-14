@@ -1,4 +1,4 @@
-# Global settings applied to the whole site.  -b $DEPLOY_PRIME_URL
+# Global settings applied to the whole site. Use -b $DEPLOY_PRIME_URL when there is no custom domain
 [build]
   command = "hugo -t hugo-creative-portfolio-theme"
   publish = "public"
