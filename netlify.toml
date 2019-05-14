@@ -1,6 +1,6 @@
-# Global settings applied to the whole site.
+# Global settings applied to the whole site.  -b $DEPLOY_PRIME_URL
 [build]
-  command = "hugo -t hugo-creative-portfolio-theme -b $DEPLOY_PRIME_URL"
+  command = "hugo -t hugo-creative-portfolio-theme"
   publish = "public"
 
 [context.production.environment]
